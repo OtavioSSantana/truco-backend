@@ -1,4 +1,4 @@
-import { Card, Suit, Rank } from "./types";
+import { Card, Suit, Rank } from "./types.js";
 
 const SUITS: Suit[] = ["ouros", "espadas", "copas", "paus"];
 const RANKS: Rank[] = ["4", "5", "6", "7", "Q", "J", "K", "A", "2", "3"];

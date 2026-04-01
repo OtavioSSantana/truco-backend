@@ -1,6 +1,7 @@
 {
   "name": "truco-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "Truco Online Server",
   "main": "src/index.ts",
   "scripts": {

@@ -1,10 +1,10 @@
 import { v4 as uuidv4 } from "uuid";
-import { Room, GameState, Player, Team, Card } from "./shared/types";
+import { Room, GameState, Player, Team, Card } from "./shared/types.js";
 import {
   createDeck,
   shuffleDeck,
   getVazaWinner,
-} from "./shared/cards";
+} from "./shared/cards.js";
 
 function generateCode(): string {
   return uuidv4().substring(0, 6).toUpperCase();

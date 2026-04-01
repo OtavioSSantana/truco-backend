@@ -3,8 +3,8 @@ import express from "express";
 import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
-import { RoomManager } from "./RoomManager";
-import { ClientToServerEvents, ServerToClientEvents } from "./shared/types";
+import { RoomManager } from "./RoomManager.js";
+import { ClientToServerEvents, ServerToClientEvents } from "./shared/types.js";
 
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
 const PORT = Number(process.env.PORT) || 3001;
